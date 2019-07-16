@@ -10,9 +10,11 @@ Yuan Gao, Ed Abrahamsen, Liz Mahoney, Jen Shin
 
 http://deploymentjavaapp-env.aigdmphqtg.us-west-2.elasticbeanstalk.com/
 
-![Deployed link](./src/main/resources/deploylink.png)
+***Deployed Link Page***
 
-AWS Pipeline Console
+![Deployed link](./src/main/resources/deployedLink.png)
+
+***AWS Pipeline Console Page***
 
 ![Deployed link](./src/main/resources/pipeline.png)
 
@@ -41,7 +43,7 @@ Create a new repository for your documentation, called doc-pipeline-app (i.e. do
 
 ## Steps 
 
-***IN THE PROJECT -> application.properties -> `server.port=5000`
+***IN THE PROJECT -> Go to `application.properties` -> add `server.port=5000`
 
 1. Create a AWS pipeline called `deployment-app-java`
 2. Select `service role	`, 
@@ -55,7 +57,7 @@ Create a new repository for your documentation, called doc-pipeline-app (i.e. do
 10. Enter `next`
 11. Skip build stage
 12. Add deploy stage select deploy provider: `AWS Elastic Beanstalk`
-13. Go to EBS
+13. Go to Elastic BeanStalk console
 14. Create a new instance named `deployment-app-java`
 15. Enter description
 16. Enter `Create`
