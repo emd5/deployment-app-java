@@ -1,10 +1,10 @@
-/*
-Going through these files: what is familiar? What is unfamiliar? Surprising?
- */
-
 plugins {
 	id 'org.springframework.boot' version '2.1.5.RELEASE'
 	id 'java'
+}
+
+repositories {
+	mavenCentral()
 }
 
 apply plugin: 'io.spring.dependency-management'
