@@ -63,5 +63,7 @@ Create a new repository for your documentation, called doc-pipeline-app (i.e. do
 
 
 ## Resources
+
 Java repo - https://github.com/codefellows/deployment-app-java
+
 AWS - https://aws.amazon.com/codepipeline/
