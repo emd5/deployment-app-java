@@ -10,6 +10,13 @@ Yuan Gao, Ed Abrahamsen, Liz Mahoney, Jen Shin
 
 http://deploymentjavaapp-env.aigdmphqtg.us-west-2.elasticbeanstalk.com/
 
+![Deployed link](./src/main/resources/deploylink.png)
+
+AWS Pipeline Console
+
+![Deployed link](./src/main/resources/pipeline.png)
+
+
 
 ## Getting Started
 
